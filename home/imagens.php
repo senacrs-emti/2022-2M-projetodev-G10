@@ -1,6 +1,6 @@
 <?php
 
-imagejpg($livro, 'RainhaVermelha.jpg'),
+imagejpg('Rainha Vermelha', 'RainhaVermelha.jpg'),
 
 
 ?>

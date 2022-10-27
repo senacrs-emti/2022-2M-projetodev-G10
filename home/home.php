@@ -1,5 +1,5 @@
 <?php
-include_once'dados.php';
+include_once'header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,15 +13,13 @@ include_once'dados.php';
 
 </head>
 <body>
-    <div class= titulo>
-    <h1>RecomendLivros</h1>
-    </div>
 
     <div class= populares>
     <h3>Mais Populares</h3>
-    <?php
-    echo $livros
-    ?>
+
+
+  </div>
+</div>
     </div>
   
     <div class= generos>
