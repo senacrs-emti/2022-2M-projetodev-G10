@@ -1,5 +1,6 @@
 <?php
 include_once'header.php';
+include_once 'dados.php'
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +18,10 @@ include_once'header.php';
     <div class= populares>
     <h3>Mais Populares</h3>
 
+    
+        <img src="./content/<?php echo $livros;?>" class="card-img-top" alt="...">
+        
+    
 
   </div>
 </div>

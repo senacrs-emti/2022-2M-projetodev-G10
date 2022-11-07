@@ -1,13 +1,8 @@
 <?php
 
-    $livros = array(
-        "Rainha Vermelha",
-        "Percy Jackson", "Jogos Vorazes", "Principe Cruel", "Conectadas", "Os Sete Maridos de Evelyn Hugo", "O Conto da Aia", "Amor e Gelato");
-
-shuffle($livros);
-foreach ($livros as $livro) {
-    echo "<img src='imagesDirectory/$livro.jpg'> <br>";
-}
-
-
+$livros = array (
+    0 => array('titulo'=>'Rainha Vermelha','imagem'=>'RainhaVermelha.jpg'),
+    1 => array('titulo'=>'Percy Jackson','imagem'=>'PercyJackson.jpg'),
+    2 => array('titulo'=>'Jogos Vorazes','imagem'=>'JogosVorazes.jpg'),
+)
 ?>
