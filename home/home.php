@@ -19,7 +19,12 @@ include_once 'dados.php'
     <h3>Mais Populares</h3>
 
     
-        <img src="./content/<?php echo $livros;?>" class="card-img-top" alt="...">
+      <?php
+        foreach ($livros as $livro) {
+            print_r( '<img src="'.$livro['imagem'].'">');
+        }
+
+          ?>
         
     
 
