@@ -1,0 +1,17 @@
+.paginalivro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+.titulo{
+    text-align: center;
+}
+.capa{
+    float: right;
+    margin-right: 50px;
+}
+.enredo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.

@@ -17,13 +17,12 @@ include_once 'dados.php'
 
     <div class= populares>
     <h3>Mais Populares</h3>
-
-    
+  
       <?php
         foreach ($livros as $livro) {
-            print_r( '<img src="'.$livro['imagem'].'">');
+            echo '<img src="./imagens/'.$livro['imagem'].'" height=150px">';
         }
-
+     
           ?>
         
     
