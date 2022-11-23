@@ -18,9 +18,17 @@ include_once 'dados.php'
     <div class= populares>
     <h3>Mais Populares</h3>
 
-    
-        <img src="./content/<?php echo $livros;?>" class="card-img-top" alt="...">
-        
+    <?php
+
+    for($i=0;$i<count($livros2);$i++);
+    echo $livros2[$i];
+
+
+
+
+
+    ?>
+
     
 
   </div>
