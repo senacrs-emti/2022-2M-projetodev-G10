@@ -18,16 +18,13 @@ include_once 'dados.php'
     <div class= populares>
     <h3>Mais Populares</h3>
 
-    <?php
-
-    for($i=0;$i<count($livros2);$i++);
-    echo $livros2[$i];
-
-
-
-
-
-    ?>
+  
+      <?php
+        foreach ($livros as $livro) {
+            echo '<img src="./imagens/'.$livro['imagem'].'" height=150px">';
+        }
+     
+          ?>
 
     
 

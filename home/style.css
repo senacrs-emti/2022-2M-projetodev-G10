@@ -1,14 +1,19 @@
 .titulo{
     background-color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .populares{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 
+.populares img{
+    padding: 10px;
 }
 
 .generos{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    text-align: center;
 }
