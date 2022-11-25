@@ -1,17 +1,30 @@
 .paginalivro{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
 }
-.titulo{
-    text-align: center;
-}
+
 .capa{
+    width: 30%;
+    display: block;
     float: right;
-    margin-right: 50px;
+
+    padding-top: 90px;
+    margin-right: 4%;
+    
 }
 .enredo{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    width: 30%;
+    display: block;
+    float: left;
 }
 
-.
+.dados{
+    width: 30%;
+    display: block;
+    float: left;
+    padding-top: 90px;
+    margin-left: 4%;
+}
+
+.musica{
+   margin-left: 4%;
+}

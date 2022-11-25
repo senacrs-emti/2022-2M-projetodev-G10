@@ -15,13 +15,15 @@ include_once 'dados.php'
 </head>
 <body>
 
-    <div class= populares>
+    <div class="populares">
     <h3>Mais Populares</h3>
 
   
       <?php
-        foreach ($livros as $livro) {
+        foreach ($livros as $key => $livro) {
+            echo '<a href="../paginas/livro.php?id='.$key.'">'; 
             echo '<img src="./imagens/'.$livro['imagem'].'" height=150px">';
+            echo '</a>';
         }
      
           ?>
@@ -32,12 +34,12 @@ include_once 'dados.php'
 </div>
     </div>
   
-    <div class= generos>
+    <div class="generos">
     <h3>Por Gêneros</h3>
-    <img src="https://www.freeiconspng.com/thumbs/world-icon-png/world-icon-png-6.png" alt="icon mundo" width=70px height=70px>
-    <img src="https://cdn-icons-png.flaticon.com/512/2/2267.png" alt="icon coração" width=70 height=70>
-    <img src="https://icons.iconarchive.com/icons/iconsmind/outline/512/Map-2-icon.png" alt="icon mapa" width=70 height=70>
-    <img src="https://iconarchive.com/download/i88221/icons8/ios7/Healthcare-Skull.ico" alt="icon caveira" width=70 height=70>
+    <img src="https://www.freeiconspng.com/thumbs/world-icon-png/world-icon-png-6.png" alt="icon mundo" width="70px" height="70px">
+    <img src="https://cdn-icons-png.flaticon.com/512/2/2267.png" alt="icon coração" width="70px" height="70px">
+    <img src="https://icons.iconarchive.com/icons/iconsmind/outline/512/Map-2-icon.png" alt="icon mapa" width="70px" height="70px">
+    <img src="https://iconarchive.com/download/i88221/icons8/ios7/Healthcare-Skull.ico" alt="icon caveira" width="70px" height="70px">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Icon-round-Question_mark.svg/1200px-Icon-round-Question_mark.svg.png" alt="icon interogação" width=70 height=70>
 
     </div>
