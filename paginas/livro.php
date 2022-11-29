@@ -1,11 +1,9 @@
 <?php
 include_once '../home/dados.php';
-$id = $_GET['id'];
 
 
-echo '<pre>';
-print_r($livros[$id]);
-echo '</pre>';
+
+
 ?>
 
 <!DOCTYPE html>
@@ -19,13 +17,14 @@ echo '</pre>';
 </head>
 <body>
     <div class="paginalivro">
+    <div class="dados">
         <?php
-        <div class="dados">
-            <h4>Escrito por: Suzanne Collins</h4>
-            <h4>Lançado em 2008</h4>
-            <h4>Publicação Brasileira pela editora Rocco</h4>
-        </div>
-
+        foreach ($livros as $key => $livro) {
+            echo '<Escrito por'.$livro['autor']>'';
+            
+        }
+?>
+</div>
         <div class="enredo">
         <h1>Jogos Vorazes</h1>
             <h4>Em uma nação onde anualmente 24 adolescentes lutam por ordem do governo em busca de ser o último em pé, a protagonista Katniss Everdeen entra no jogo mortal para salvar a sua irmã e cria uma chama de esperança para uma revolução.</h4>

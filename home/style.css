@@ -1,18 +1,16 @@
 .titulo{
-<<<<<<< Updated upstream
     background-color: #819ab8;
-=======
-    background-color: #ffeb57;
->>>>>>> Stashed changes
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
 }
 
 .populares{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    text-align: center;
+    
 }
 
 .generos{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+text-align: center;
 }

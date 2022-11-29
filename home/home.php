@@ -17,8 +17,6 @@ include_once 'dados.php'
 
     <div class="populares">
     <h3>Mais Populares</h3>
-
-<<<<<<< Updated upstream
   
       <?php
         foreach ($livros as $key => $livro) {
@@ -29,12 +27,7 @@ include_once 'dados.php'
      
           ?>
 
-=======
-    
-        <img src="./content/<?php echo $livros;?>" class="card-img-top" alt="...">
-        
->>>>>>> Stashed changes
-    
+
 
   </div>
 </div>
