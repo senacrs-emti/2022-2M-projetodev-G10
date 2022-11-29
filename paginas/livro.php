@@ -19,6 +19,12 @@ $livro = $livros[$id];
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="botao">
+    <a href="http://localhost:8080/2022-2M-projetodev-G10/home/">
+    <img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="botão voltar" height=50px>
+  </a>
+
+    </div>
     <div class="paginalivro">
     <div class="dados">
         <?php
@@ -38,7 +44,7 @@ $livro = $livros[$id];
         echo $livro['titulo'];
         ?>
         <br>
-        
+        <br>
         <?php
         echo $livro['enredo']
         ?>

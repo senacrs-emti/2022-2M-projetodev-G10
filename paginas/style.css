@@ -15,14 +15,19 @@
     width: 30%;
     display: block;
     float: left;
+    font-size: large;
+    text-align: center;
+    
 }
 
 .dados{
     width: 30%;
     display: block;
     float: left;
-    padding-top: 90px;
+    padding-top: 50px;
+    padding-bottom: 120px;
     margin-left: 4%;
+    font-size: large;
 }
 
 .musica{
