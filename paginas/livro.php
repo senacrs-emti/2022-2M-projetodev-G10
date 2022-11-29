@@ -1,6 +1,9 @@
 <?php
 include_once '../home/dados.php';
 
+$id = $_GET['id'];
+
+$livro = $livros[$id];
 
 
 
@@ -19,19 +22,33 @@ include_once '../home/dados.php';
     <div class="paginalivro">
     <div class="dados">
         <?php
-        foreach ($livros as $key => $livro) {
-            echo '<Escrito por'.$livro['autor']>'';
-            
-        }
-?>
+            echo 'Escrito por '.$livro['autor'];
+        ?>
+        <br>    
+        <?php    
+        echo 'Publicado pela '.$livro['editora'];
+        ?>    
+        <br>
+        <?php
+        echo 'Lançado em '.$livro['ano'];
+        ?>
 </div>
         <div class="enredo">
-        <h1>Jogos Vorazes</h1>
-            <h4>Em uma nação onde anualmente 24 adolescentes lutam por ordem do governo em busca de ser o último em pé, a protagonista Katniss Everdeen entra no jogo mortal para salvar a sua irmã e cria uma chama de esperança para uma revolução.</h4>
+        <?php
+        echo $livro['titulo'];
+        ?>
+        <br>
+        
+        <?php
+        echo $livro['enredo']
+        ?>
+    
         </div>
 
         <div class="capa">
-            <img src="../home//imagens/jogosvorazes.jpg" alt="capa do livro Jogos Vorazes" height="400px">
+            <?php
+       echo '<img src="../home/imagens/'.$livro['imagem'].'" height=400px">';
+        ?>
         </div>
         <div class="musica">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3qgbAgXOPYJ3Bj9bwctGCS?utm_source=generator" width="60%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
